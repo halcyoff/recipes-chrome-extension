@@ -1,0 +1,17 @@
+{
+    "name": "Recipe Organization Extension",
+    "version": "1.0",
+    "description": "Recipe organization app",
+    "manifest_version": 2,
+    "browser_action": {},
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "options_page": "index.html",
+    "icons": { 
+        "16": "assets/cooking.png",
+        "128": "assets/cooking_128.png" 
+    }
+}
